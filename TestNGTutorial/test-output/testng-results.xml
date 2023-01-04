@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="12" passed="11" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-10-31T15:35:46 IST" name="Application" finished-at="2022-10-31T15:35:46 IST" duration-ms="79">
+    <groups>
+      <group name="smoke">
+        <method signature="Day1.LoginPositive()[pri:0, instance:General.Day1@101952da]" name="LoginPositive" class="General.Day1"/>
+        <method signature="Day1.LoginNegative()[pri:0, instance:General.Day1@101952da]" name="LoginNegative" class="General.Day1"/>
+        <method signature="Day4.carLoanAccept()[pri:0, instance:General.Day4@14555e0a]" name="carLoanAccept" class="General.Day4"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test started-at="2022-10-31T15:35:46 IST" name="Regression" finished-at="2022-10-31T15:35:46 IST" duration-ms="79">
+      <class name="General.Day2">
+        <test-method is-config="true" signature="prelimWork()[pri:0, instance:General.Day2@2b48a640]" started-at="2022-10-31T15:35:46 IST" name="prelimWork" finished-at="2022-10-31T15:35:46 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- prelimWork -->
+        <test-method signature="HomePage()[pri:0, instance:General.Day2@2b48a640]" started-at="2022-10-31T15:35:46 IST" name="HomePage" finished-at="2022-10-31T15:35:46 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- HomePage -->
+        <test-method signature="HomePagePositive()[pri:0, instance:General.Day2@2b48a640]" started-at="2022-10-31T15:35:46 IST" name="HomePagePositive" finished-at="2022-10-31T15:35:46 IST" duration-ms="4" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertTrue(Assert.java:45)
+at org.testng.Assert.assertTrue(Assert.java:55)
+at General.Day2.HomePagePositive(Day2.java:20)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- HomePagePositive -->
+        <test-method signature="PersonalLoan(java.lang.String)[pri:0, instance:General.Day2@2b48a640]" started-at="2022-10-31T15:35:46 IST" name="PersonalLoan" finished-at="2022-10-31T15:35:46 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[personalLoan.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PersonalLoan -->
+      </class> <!-- General.Day2 -->
+      <class name="General.Day3">
+        <test-method is-config="true" signature="cookieClearning()[pri:0, instance:General.Day3@7a419da4]" started-at="2022-10-31T15:35:46 IST" name="cookieClearning" finished-at="2022-10-31T15:35:46 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cookieClearning -->
+        <test-method signature="HomeLoan(java.lang.String,java.lang.String)[pri:0, instance:General.Day3@7a419da4]" started-at="2022-10-31T15:35:46 IST" name="HomeLoan" data-provider="getData" finished-at="2022-10-31T15:35:46 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firstusername]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[firstpwd]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- HomeLoan -->
+        <test-method is-config="true" signature="cookieClearningDone()[pri:0, instance:General.Day3@7a419da4]" started-at="2022-10-31T15:35:46 IST" name="cookieClearningDone" finished-at="2022-10-31T15:35:46 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cookieClearningDone -->
+        <test-method is-config="true" signature="cookieClearning()[pri:0, instance:General.Day3@7a419da4]" started-at="2022-10-31T15:35:46 IST" name="cookieClearning" finished-at="2022-10-31T15:35:46 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cookieClearning -->
+        <test-method signature="HomeLoan(java.lang.String,java.lang.String)[pri:0, instance:General.Day3@7a419da4]" started-at="2022-10-31T15:35:46 IST" name="HomeLoan" data-provider="getData" finished-at="2022-10-31T15:35:46 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[secondusername]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secondpwd]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- HomeLoan -->
+        <test-method is-config="true" signature="cookieClearningDone()[pri:0, instance:General.Day3@7a419da4]" started-at="2022-10-31T15:35:46 IST" name="cookieClearningDone" finished-at="2022-10-31T15:35:46 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cookieClearningDone -->
+        <test-method signature="HomeLoan(java.lang.String,java.lang.String)[pri:0, instance:General.Day3@7a419da4]" started-at="2022-10-31T15:35:46 IST" name="HomeLoan" data-provider="getData" finished-at="2022-10-31T15:35:46 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[thirdusername]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[thirdpwd]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- HomeLoan -->
+        <test-method is-config="true" signature="cookieClearning()[pri:0, instance:General.Day3@7a419da4]" started-at="2022-10-31T15:35:46 IST" name="cookieClearning" finished-at="2022-10-31T15:35:46 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cookieClearning -->
+        <test-method is-config="true" signature="cookieClearningDone()[pri:0, instance:General.Day3@7a419da4]" started-at="2022-10-31T15:35:46 IST" name="cookieClearningDone" finished-at="2022-10-31T15:35:46 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cookieClearningDone -->
+        <test-method is-config="true" signature="cookieClearning()[pri:0, instance:General.Day3@7a419da4]" started-at="2022-10-31T15:35:46 IST" name="cookieClearning" finished-at="2022-10-31T15:35:46 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cookieClearning -->
+        <test-method signature="MobileHomeLoan()[pri:0, instance:General.Day3@7a419da4]" started-at="2022-10-31T15:35:46 IST" name="MobileHomeLoan" finished-at="2022-10-31T15:35:46 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MobileHomeLoan -->
+        <test-method is-config="true" signature="cookieClearningDone()[pri:0, instance:General.Day3@7a419da4]" started-at="2022-10-31T15:35:46 IST" name="cookieClearningDone" finished-at="2022-10-31T15:35:46 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cookieClearningDone -->
+      </class> <!-- General.Day3 -->
+      <class name="General.Day4">
+        <test-method is-config="true" signature="beforeSuiteExec()[pri:0, instance:General.Day4@14555e0a]" started-at="2022-10-31T15:35:46 IST" name="beforeSuiteExec" finished-at="2022-10-31T15:35:46 IST" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuiteExec -->
+        <test-method signature="carLoanAccept()[pri:0, instance:General.Day4@14555e0a]" started-at="2022-10-31T15:35:46 IST" name="carLoanAccept" finished-at="2022-10-31T15:35:46 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- carLoanAccept -->
+        <test-method signature="carLoanReject(java.lang.String)[pri:0, instance:General.Day4@14555e0a]" started-at="2022-10-31T15:35:46 IST" name="carLoanReject" finished-at="2022-10-31T15:35:46 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[CarLoan.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- carLoanReject -->
+        <test-method is-config="true" signature="afterExecuting()[pri:0, instance:General.Day4@14555e0a]" started-at="2022-10-31T15:35:46 IST" name="afterExecuting" finished-at="2022-10-31T15:35:46 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterExecuting -->
+      </class> <!-- General.Day4 -->
+      <class name="General.Day1">
+        <test-method signature="Demo(java.lang.String)[pri:0, instance:General.Day1@101952da]" started-at="2022-10-31T15:35:46 IST" name="Demo" finished-at="2022-10-31T15:35:46 IST" duration-ms="5" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[hdfc.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Demo -->
+        <test-method signature="LoginPositive()[pri:0, instance:General.Day1@101952da]" started-at="2022-10-31T15:35:46 IST" name="LoginPositive" finished-at="2022-10-31T15:35:46 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginPositive -->
+        <test-method signature="LoginNegative()[pri:0, instance:General.Day1@101952da]" started-at="2022-10-31T15:35:46 IST" name="LoginNegative" finished-at="2022-10-31T15:35:46 IST" depends-on-methods="General.Day1.LoginPositive" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginNegative -->
+        <test-method is-config="true" signature="afterSuiteExec()[pri:0, instance:General.Day1@101952da]" started-at="2022-10-31T15:35:47 IST" name="afterSuiteExec" finished-at="2022-10-31T15:35:47 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuiteExec -->
+      </class> <!-- General.Day1 -->
+    </test> <!-- Regression -->
+  </suite> <!-- Application -->
+</testng-results>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;SeleniumFrameworkDemo&apos; to &apos;TMRAutomation&apos;" description="Rename resource &apos;SeleniumFrameworkDemo&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="/SeleniumFrameworkDemo" name="TMRAutomation" stamp="1669012575591" updateReferences="true"/>
+</session>

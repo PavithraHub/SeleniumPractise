@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-12-07T19:42:01 IST" name="Default suite" finished-at="2022-12-07T19:42:04 IST" duration-ms="3273">
+    <groups>
+    </groups>
+    <test started-at="2022-12-07T19:42:01 IST" name="Default test" finished-at="2022-12-07T19:42:04 IST" duration-ms="3273">
+      <class name="ECommerce.Tests.ErrorValidations">
+        <test-method is-config="true" signature="launchTest()[pri:0, instance:ECommerce.Tests.ErrorValidations@4dbb42b7]" started-at="2022-12-07T19:42:01 IST" name="launchTest" finished-at="2022-12-07T19:42:04 IST" duration-ms="2688" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchTest -->
+        <test-method signature="errorMessage()[pri:0, instance:ECommerce.Tests.ErrorValidations@4dbb42b7]" started-at="2022-12-07T19:42:04 IST" name="errorMessage" finished-at="2022-12-07T19:42:04 IST" duration-ms="440" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- errorMessage -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:ECommerce.Tests.ErrorValidations@4dbb42b7]" started-at="2022-12-07T19:42:04 IST" name="tearDown" finished-at="2022-12-07T19:42:04 IST" duration-ms="108" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- ECommerce.Tests.ErrorValidations -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
